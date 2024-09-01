@@ -1,0 +1,101 @@
+:root {
+    --neutral: #232946;
+    --base1: white;
+    --neutralfocus: #121629;
+    --accent: #eebbe3;
+    --accent2:red;
+  }
+  * {
+    margin: 0;
+  }
+  body {
+    font-family: noto-serif, sans-serif;
+    text-align: center;
+    background-color: var(--neutral);
+  }
+  h1 h2 h3 h4 h5 h6 {
+    font-family: poppins, sans-serif;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  .nav-links {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    list-style: none;
+    font-family: serif;
+    margin-right: 50px;
+  }
+  #navbar {
+    width: 100vw;
+    position: fixed;
+    background-color: var(--accent2);
+    padding: 20px 0;
+    font-size: 20px;
+    border-bottom: 1px solid var(--neutralfocus);
+  }
+  .nav-links a {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-decoration: none;
+    color: var(--base1);
+    padding: 0 50px;
+  }
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  section {
+    padding: 70px;
+    min-height: 90vh;
+  }
+  #welcome-section {
+    
+    color: var(--base1);
+    display: flex;
+    flex-direction:column;
+  }
+  #welcome-section img{
+    border-radius: 100%;
+   
+
+  }
+  #welcome-section .welcome-section{
+    display: flex;
+    flex-direction: column;
+    padding-top: 15vh;
+  }
+  .project-tile {
+    padding: 10px;
+  }
+  .icons a {
+    text-decoration: none;
+    color: ;
+  }
+  .icons ion-icon {
+    color: #fff;
+    font-size: 30px;
+    padding: 20px;
+    transition: 0.3s ease;
+  }
+  .icons ion-icon:hover {
+    color: var(--accent2);
+  }
+  img {
+    margin: 15px;
+    border: 1px solid black;
+    width: 175px;
+    height: 175px;
+    display: inline-flex;
+  }
+  header{
+    color:var(--base1);
+  }
+  p{
+    color:var(--accent2);
+  }
+  
+  #contact p{
+    color: var(--base1);
+  }
